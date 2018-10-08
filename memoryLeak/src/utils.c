@@ -2,13 +2,24 @@
 
 #include "utils.h"
 
+int cmpInt(const void *a, const void *b) {
+  int x = *((const int *)a);
+  int y = *((const int *)b);
+  if(x < y) {
+    return -1;
+  } else if(x > y) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
 int findMedian(const int *array, int size) {
-  //make a copy
+  //make a copy since the passed array is read-only
   int *copy = deepCopy(array, size);
   //sort the copy
-  selectionSort(copy, size);
+  qsort(copy, size, sizeof(int), cmpInt);
   int medianValue = copy[size/2];
-  free(copy);
   return medianValue;
 }
 
@@ -26,20 +37,4 @@ int * deepCopy(const int *array, int size) {
     copy[i] = array[i];
   }
   return copy;
-}
-
-void selectionSort(int *a, int size) {
-  int min_index;
-  for(int i=0; i<size-1; i++) {
-    min_index = i;
-    for(int j=i+1; j<size; j++) {
-      if(a[min_index] > a[j]) {
-        min_index = j;
-      }
-    }
-    //swap
-    int t = a[i];
-    a[i] = a[min_index];
-    a[min_index] = t;
-  }
 }

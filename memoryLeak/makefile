@@ -1,7 +1,8 @@
-#Makefile for memLeak
+# Makefile for memLeak
 
 CC = gcc
-CCFLAGS = -std=c99 -Iinclude
+CCFLAGS = -g -Wall -std=gnu99 -iquote include
+
 all: memLeak
 
 memLeak: memLeak.o utils.o
