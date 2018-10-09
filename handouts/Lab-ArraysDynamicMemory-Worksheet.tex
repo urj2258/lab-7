@@ -66,11 +66,21 @@ Names: \underline{\hspace{10cm}}
 
 \begin{questions}
 
-\question How much memory did \mintinline{text}{memLeak} consume at the end of its execution before you added the call to free?  After?\begin{solution}[2cm]\end{solution}
+\question Answer the following questions about the memory leak:
+\begin{parts}
+  \part How much memory did \mintinline{text}{memLeak} consume by the end of its
+  execution?
+\begin{solution}[2cm]
+\end{solution}
+  \part How much memory was ``lost'' according to Valgrind? 
+\begin{solution}[2cm]
+\end{solution}
+  \part How does that correlate to the parameters you ran (10 arrays of 1 million integers each)?
+\begin{solution}[2cm]
+\end{solution}
+\end{parts}
 
-\question Explain why adding the call to \mintinline{c}{free} affected the amount of memory consumed by \mintinline{text}{memLeak}. \begin{solution}[2cm]\end{solution}
-
-\question Show and demonstrate your code for the statistics program using a static array to a lab instructor.\question Show and demonstrate your code for the statistics program using a dynamic array to a lab instructor.\question Show and demonstrate your code for the statistics program using the \mintinline{c}{createRandomArray} to a lab instructor.
+\question Demonstrate your working program(s) to a lab instructor.
 
 \end{questions}
   
