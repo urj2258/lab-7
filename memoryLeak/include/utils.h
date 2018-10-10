@@ -1,4 +1,9 @@
 
+/**
+ * Comparator function for integers, ordering in 
+ * non-descending order.
+ */
+int cmpInt(const void *a, const void *b);
 
 /**
  * Generates a random array of integers of the given
@@ -18,8 +23,3 @@ int findMedian(const int *array, int size);
  */
 int * deepCopy(const int *array, int size);
 
-/**
- * Sorts the given array of integers using the
- * slow selection sort algorithm
- */
-void selectionSort(int *a, int size);
