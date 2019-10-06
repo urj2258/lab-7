@@ -3,10 +3,11 @@
  */
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 #include "stats.h"
 
-#define SIZE 500
+#define MAX_SIZE 500
 
 int main(int argc, char** argv) {
 
