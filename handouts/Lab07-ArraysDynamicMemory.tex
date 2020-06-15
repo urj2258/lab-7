@@ -18,11 +18,8 @@
   menucolor=darkred,
   urlcolor=blue,
   pdfpagemode=none,
-  pdftitle={Introduction To Git},
-  pdfauthor={Christopher M. Bourke},
-  pdfcreator={$ $Id: cv-us.tex,v 1.28 2009/01/01 00:00:00 cbourke Exp $ $},
-  pdfsubject={PhD Thesis},
-  pdfkeywords={}
+  pdftitle={Lab 7.0 - Functions},
+  pdfauthor={Christopher M. Bourke}
 }
 
 \definecolor{MyDarkBlue}{rgb}{0,0.08,0.45}
@@ -57,8 +54,8 @@
 \SetupFloatingEnvironment{listing}{listname=List of Code Samples}
 
 \title{CSCE 155 - C}
-\subtitle{Lab 07 - Arrays \& Dynamic Memory}
-\author{Dr.\ Chris Bourke}
+\subtitle{Lab 7.0 - Arrays \& Dynamic Memory}
+\author{~}
 \date{~}
 
 \begin{document}
@@ -70,19 +67,22 @@
 Before attending this lab:
 \begin{enumerate}
   \item Read and familiarize yourself with this handout.
-  \item Review the following free textbook resources:
-	\begin{itemize}
-  	  \item \url{http://www.cs.cf.ac.uk/Dave/C/node7.html} 
-	  \item \url{http://en.wikibooks.org/wiki/C_Programming/Arrays}
-	  \item \url{http://www.cs.cf.ac.uk/Dave/C/node11.html}
-	  \item \url{http://en.wikibooks.org/wiki/C_Programming/Memory_management}
-	\end{itemize}
+  \item Read Chapters 7 and 20 of the \href{http://cse.unl.edu/~cbourke/ComputerScienceOne.pdf}{Computer Science I} textbook
+  \item Watch Videos 7.1 thru 7.7 of the \href{https://www.youtube.com/playlist?list=PL4IH6CVPpTZVkiEnCEOdGbYsFEdtKc5Bx}{Computer Science I} video series
 \end{enumerate}
 
 \section*{Peer Programming Pair-Up}
 
-To encourage collaboration and a team environment, labs will be
-structured in a \emph{pair programming} setup.  At the start of
+\textbf{For students in the online section:} you may complete
+the lab on your own if you wish or you may team up with a partner
+of your choosing, or, you may consult with a lab instructor to get
+teamed up online (via Zoom).
+
+\textbf{For students in the face-to-face section:} your
+lab instructor will team you up with a partner.  
+
+To encourage collaboration and a team environment, labs are be
+structured in a \emph{peer programming} setup.  At the start of
 each lab, you will be randomly paired up with another student 
 (conflicts such as absences will be dealt with by the lab instructor).
 One of you will be designated the \emph{driver} and the other
@@ -323,6 +323,30 @@ for and entering a lot of numbers is tedious.  So instead, alter your code
 again to instead take advantage of the \mintinline{c}{createRandomArray} 
 function provided for you.  Demonstrate it to a lab instructor and have 
 them sign your lab worksheet. 
+
+\section{Handin/Grader Instructions}
+
+\begin{enumerate}
+  \item Hand in your completed files:
+  \begin{itemize}
+    \item \mintinline{text}{stats.c}
+    \item \mintinline{text}{stats.h}
+    \item \mintinline{text}{statsMain.c}
+    \item \mintinline{text}{worksheet.md}
+  \end{itemize}
+  through the webhandin (\url{https://cse-apps.unl.edu/handin}) 
+  using your cse login and password.  
+  \item Even if you worked with a partner, you \emph{both} should
+  turn in all files.
+  \item Verify your program by grading yourself through the
+  webgrader (\url{https://cse.unl.edu/~cse155e/grade/}) using the
+  same credentials.
+  \item Recall that both expected output and your program's output
+  will be displayed.  The formatting may differ slightly which is fine.
+  As long as your program successfully compiles, runs and outputs 
+  the \emph{same values}, it is considered correct.
+\end{enumerate}
+
 
 \section{Advanced Activity (Optional)}
 
