@@ -16,7 +16,7 @@ void readInArray(int *arr, int size) {
 int * generateRandomArray(int size) {
   int * randomArr = malloc(sizeof(int) * size);
   for(int i=0; i<size; i++) {
-    randomArr[i] = rand();
+    randomArr[i] = rand() % 1000;
   }
   return randomArr;
 }

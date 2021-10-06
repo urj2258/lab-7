@@ -8,8 +8,9 @@
 void readInArray(int *arr, int size);
 
 /**
- * Generates a random array of integers of the given
- * size.  This function assumes that the random number
+ * Generates an array of integers of the given size filled
+ * with random integer values between 0 and 1000 (exclusive).
+ * This function assumes that the random number
  * generator has already been seeded.
  */
 int * generateRandomArray(int size);
