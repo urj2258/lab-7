@@ -30,8 +30,9 @@ figures/_minted*
 #
 .DS_Store
 
-# object files
+# object and executable files
 *.o
+memoryLeak/memLink
 
 #
 solution/
