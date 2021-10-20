@@ -31,6 +31,7 @@ figures/_minted*
 .DS_Store
 
 # object and executable files
+*.dSYM
 *.o
 memoryLeak/memLink
 
