@@ -4,11 +4,12 @@
 
 #include "utils.h"
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
 
   int size, numIterations;
 
   if(argc == 1) {
+    //default
     size = 100000;
     numIterations = 10;
   } else if(argc == 3) {
