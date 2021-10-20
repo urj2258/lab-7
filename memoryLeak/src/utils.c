@@ -19,6 +19,7 @@ int findMedian(const int *array, int size) {
   int *copy = deepCopy(array, size);
   //sort the copy
   qsort(copy, size, sizeof(int), cmpInt);
+  //find the median
   int medianValue = copy[size/2];
   return medianValue;
 }
