@@ -350,10 +350,16 @@ be able to utilize others.
 * `int getIndexOfMax(const int *arr, int size)` - returns
   the *index* of the the maximum element in `arr`
 
-* `int * filterThreshold(const int *arr, int size, int threshold, int *resultSize)` - creates and returns a new array that contains
+* `int * filterThreshold(const int *arr, int size, int threshold, int *resultSize)` -
+  creates and returns a new array that contains
   elements in `arr` that are greater than or equal to `threshold`.
   The size of the returned array is communicated through the
-  pass-by-reference variable, `resultSize`
+  pass-by-reference variable, `resultSize`.  For example, if we
+  pass the array
+  `[10, 5, 32, 8, 7, 28, 15, 12]`
+  with `threshold = 10` then the returned array should be
+  `[10, 32, 28, 15, 12]`
+  and the `resultSize` would be set to `5`.
 
 * `int **createMultiplicationTable(int n, int m)` - creates and
   returns a new `(n x m)` 2-D array that contains the values in

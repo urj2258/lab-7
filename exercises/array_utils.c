@@ -5,7 +5,7 @@
 
 void printArray(const int *arr, int n) {
   if(arr == NULL) {
-    print("[null]\n");
+    printf("[null]\n");
     return;
   }
   printf("[ ");
@@ -18,7 +18,7 @@ void printArray(const int *arr, int n) {
 
 void printTable(int **table, int n, int m) {
   if(table == NULL) {
-    print("[null]\n");
+    printf("[null]\n");
     return;
   }
   for(int i=0; i<n; i++) {
@@ -50,7 +50,7 @@ int getSum(int *arr, int size) {
   return total;
 }
 
-void freeTable(int **table, n, m) {
+void freeTable(int **table, int n, int m) {
   if(table == NULL) {
     return;
   }
