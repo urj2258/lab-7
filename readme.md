@@ -373,7 +373,8 @@ be able to utilize others.
 
 ## Handin/Grader Instructions
 
-* Hand in your completed source file, `array_utils.c`
+* Hand in your completed source file, `array_utils.c` and
+  header file `array_utils.h`
   through the webhandin (https://cse-apps.unl.edu/handin)
   using your cse login and password.  
 * Even if you worked with a partner, you *both* need to
