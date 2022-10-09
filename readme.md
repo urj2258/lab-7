@@ -1,10 +1,12 @@
 # Computer Science I
 ## Lab 7.0 - Arrays
+[School of Computing](https://computing.unl.edu)  
+[College of Engineering](https://engineering.unl.edu/)  
+[University of Nebraska-Lincoln](https://unl.edu)  
+[University of Nebraska-Omaha](https://unomaha.edu)  
 
 This lab introduces arrays and dynamic memory using the C programming
 language.
-
-This is a lab used in Computer Science I (CSCE 155E, CSCE 155H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Prior to Lab
 
@@ -25,7 +27,7 @@ of your choosing, or, you may consult with a lab instructor to get
 teamed up online (via Zoom).
 
 ***For students in the on campus section:*** your lab instructor
-will team you up with a partner.  
+may team you up with a partner.  
 
 To encourage collaboration and a team environment, labs are be
 structured in a *peer programming* setup.  At the start of
@@ -374,14 +376,10 @@ be able to utilize others.
 ## Handin/Grader Instructions
 
 * Hand in your completed source file, `array_utils.c` and
-  header file `array_utils.h`
-  through the webhandin (https://cse-apps.unl.edu/handin)
-  using your cse login and password.  
+  header file `array_utils.h` through the handin and verify
+  your program is correct by using the grader.
 * Even if you worked with a partner, you *both* need to
   turn in all files.
-* Verify your program by grading yourself through the
-  webgrader (https://cse.unl.edu/~cse155e/grade/) using the
-  same credentials.
 
 ## Advanced Activity (Optional)
 
