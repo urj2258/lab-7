@@ -17,7 +17,7 @@ language.
 In addition we recommend the following supplemental material:
 
 * Read Chapters 7 and 20 of [Computer Science I](https://bitbucket.org/chrisbourke/computersciencei/raw/5a04789d5f54b9f8df9f27e7087e4b33b237275f/ComputerScienceOne.pdf)
-* Watch [https://www.youtube.com/playlist?list=PL4IH6CVPpTZVkiEnCEOdGbYsFEdtKc5Bx](Videos 7.1 thru 7.7)
+* Watch [Videos 7.1 thru 7.7](https://www.youtube.com/playlist?list=PL4IH6CVPpTZVkiEnCEOdGbYsFEdtKc5Bx)
 
 ## Peer Programming Pair-Up
 
