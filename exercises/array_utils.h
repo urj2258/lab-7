@@ -30,7 +30,7 @@ int getSum(int *arr, int size);
 /**
  * Frees the given (n x m) table
  */
-void freeTable(int **table, int n, int m);
+void freeTable(int **table, int n);
 
 /**
  * TODO: add your own documentation

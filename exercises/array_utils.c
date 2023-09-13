@@ -50,7 +50,7 @@ int getSum(int *arr, int size) {
   return total;
 }
 
-void freeTable(int **table, int n, int m) {
+void freeTable(int **table, int n) {
   if(table == NULL) {
     return;
   }
