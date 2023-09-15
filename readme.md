@@ -329,9 +329,9 @@ implemented.  In general:
 
 You will now get some practice by implementing several more
 utility functions.  For each function below:
-1. Write documentation in the `array_util.h` file in your own
+1. Write documentation in the `array_utils.h` file in your own
    words so you have an understanding of what it does.
-2. Implement the function in the `array_util.c` file.
+2. Implement the function in the `array_utils.c` file.
 3. Test your function in the `arrayMain.c` file to verify it
    works.
 Look for ways to make your life easier: some functions may
