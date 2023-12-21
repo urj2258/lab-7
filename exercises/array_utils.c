@@ -62,6 +62,10 @@ void freeTable(int **table, int n) {
 
 double getMean(const int *arr, int size) {
   //TODO: implement
+  if(size<=0)
+  {
+    return 0.0;
+  }
 }
 
 int getMin(const int *arr, int size) {
