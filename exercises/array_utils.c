@@ -159,4 +159,9 @@ int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) 
 
 int **createMultiplicationTable(int n, int m) {
   //TODO: implement
+  int **table=(int **)malloc(sizeof(int *)*n);//yahi sir aap nay aaj lab main parhaya.
+  if(table==NULL)
+  {
+    return NULL;
+  }
 }
