@@ -104,6 +104,15 @@ int getIndexOfMin(const int *arr, int size) {
   {
     return -1;
   }
+  int minIndex = 0;
+  for(int i=1;i<size;i++)
+  {
+    if(arr[i],arr[minIndex])
+    {
+      minIndex=i;
+    }
+  }
+  return minIndex;
 }
 
 int getMax(const int *arr, int size) {
