@@ -136,6 +136,10 @@ int getMax(const int *arr, int size) {
 
 int getIndexOfMax(const int *arr, int size) {
   //TODO: implement
+   if(size<=0)
+  {
+    return -1;
+  }
 }
 
 int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) {
