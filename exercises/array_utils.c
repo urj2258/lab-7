@@ -81,6 +81,12 @@ double sum=0.0;
 
 int getMin(const int *arr, int size) {
   //TODO: implement
+   //TODO: implement
+  if(size<=0)
+  {
+    return 0;
+  }
+
 }
 
 int getIndexOfMin(const int *arr, int size) {
