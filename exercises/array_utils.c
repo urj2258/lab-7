@@ -164,4 +164,22 @@ int **createMultiplicationTable(int n, int m) {
   {
     return NULL;
   }
+  for(int i=0;i<n;i++)
+  {
+    table[i]=(int *)malloc(sizeof(int)*m);
+    if(table[i]== NULL)
+    {
+      for(int j=0;j<i;j++)
+      {
+        free(table[j]);
+      }
+      free(table);
+      return NULL;
+    }
+    for(int j=0;j<m;j++)
+    {
+      table[i][j]=(i+1)*(j+1);
+    }
+  }
+  return table;
 }
